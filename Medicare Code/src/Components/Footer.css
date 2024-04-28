@@ -1,0 +1,94 @@
+.foot-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-col {
+  width: 250px;
+  padding: 10px;
+}
+.footer {
+  margin-bottom: 0;
+  background-color: #102e10;
+  color: white;
+}
+.foot-text {
+  font-family:'Times New Roman', Times, serif;
+  padding: 4px;
+ font-size: 1rem;
+ line-height: 1.4em;
+ font-weight: normal;
+ 
+}
+.icons{
+ position: relative;
+ left: -20px;
+ top: -58px;
+}
+.icons3{
+  position: relative;
+  left: -20px;
+  top:-78px;
+}
+.icons1{
+  padding-right:10px;
+}
+.created-text {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px 0  0;
+  padding-bottom: 5px;
+}
+.foot-head {
+  font-family: merienda;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 23px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.footer-line {
+  border-style: dashed;
+
+}
+.foot-col ul li{
+  list-style: none;
+  color: white;
+}
+.foot-col a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:425px) {
+  .foot-row{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot-col{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+  .created-text{
+    font-size: 0.6em;
+  }
+  .foot-head{
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  .foot-text{
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width:426px) and (max-width:800px) {
+  .foot-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 0;
+  }
+  
+  
+}

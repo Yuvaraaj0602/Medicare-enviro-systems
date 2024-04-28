@@ -1,0 +1,99 @@
+.img-line {
+  width: 99vw;
+  position: relative;
+  top: 10em;
+}
+
+  
+
+.biglineProcess {
+  height: 15px;
+  width: 50%;
+  margin-right: 0px;
+  background-color: #102e10;
+  border-radius: 15px 0 0 0;
+}
+.smalllineProcess {
+  height: 5px;
+  width: 50%;
+  margin-right: 0px;
+  background-color: #102e10;
+}
+.process-head {
+  font-family: merienda;
+  text-align: center;
+  position: relative;
+  top: 1.5em;
+  left: 38%;
+  font-weight: 700;
+  font-size: 40px;
+  color: #102e10;
+  line-height: 46.21px;
+  display: inline-block;
+}
+
+.process-underline {
+  width: 10dvw;
+  position: relative;
+  top: 5.5em;
+  left: 29.5%;
+}
+.empty{
+  width: 100px;
+}
+.img-1 {
+ width: 100dvw;
+ height: auto;
+}
+
+.img-txt{
+  display: inline;
+  position: relative;
+  top: -170px;
+  left: -30px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+
+  .img-line {
+    position: relative;
+    top: 100px;
+    width: 100dvw;
+  }
+  .process-head {
+    position: relative;
+    top: 2em;
+    font-size: 1.25em;
+  }
+  .process-underline {
+    position: relative;
+    width: 8ch;
+    left: 13em;
+    top: 3.5em;
+  }
+  .img-txt {
+    font-size: 10px;
+    color: white;
+    position: relative;
+    left: 80%;
+    top: -25px;
+  }
+ 
+}
+@media screen and (max-width:425px) {
+  .process-head{
+   position: relative;
+   left: 5.5em;
+   top: 2.5em;
+  }
+  .process-underline{
+    position: relative;
+    left: 2em;
+    top: 4em;
+  }
+  
+}

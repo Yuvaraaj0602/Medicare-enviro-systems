@@ -1,0 +1,49 @@
+.bg-processes {
+  width: 99dvw;
+  height: 50dvh;
+  background-image: url("bgpic.png");
+  background-size: cover;
+}
+.processes-head {
+  color: white;
+  font-family: merienda;
+  font-size: 48px;
+  display: inline;
+  position: relative;
+  top: 48px;
+  left: 45%;
+}
+.Flow {
+  margin: 50px 10%;
+  width: 80dvw;
+  height: auto;
+}
+.arrow-line {
+  width: 200px;
+  position: relative;
+  top: 100px;
+  left: 34.5%;
+}
+@media screen and (max-width:425px) {
+  .bg-processes{
+    width: 100dvw;
+    height: 60dvh;
+  }
+  .Flow{
+    width: 95dvw;
+    height: auto;
+    margin: 10px;
+
+  }
+  .processes-head{
+    font-size: 2em;
+
+  }
+  .arrow-line{
+    width: 12ch;
+    position: relative;
+    left: 10%;
+    top: 20%;
+  }
+  
+}

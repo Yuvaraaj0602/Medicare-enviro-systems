@@ -1,0 +1,214 @@
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 90px 0 10px 0;
+}
+.z-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20dvw;
+  height: 40dvh;
+  border: 1px dashed #00ff00;
+  border-radius: 30px;
+  margin-left: 32px;
+  margin-top: 16px;
+  z-index: 0;
+}
+.z-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20dvw;
+  height: 40dvh;
+  border: 1px dashed #00ff00;
+  border-radius: 30px;
+  margin-left: 30%;
+  margin-top: -25%;
+}
+.imgs-1 {
+  width: 17.5dvw;
+  height: 35dvh;
+  border-radius: 20px;
+  z-index: 1;
+}
+.imgs-2 {
+  width: 17.5dvw;
+  height: 35dvh;
+}
+.col-1 {
+  background-image: url(../Assets/recycling.png);
+  background-repeat: no-repeat;
+  background-position: 15vw;
+  margin: 15px 0 10px 16px;
+  width: 60dvw;
+  height: auto;
+}
+.col-2 {
+  margin-top: 200px;
+  margin-left: 5em;
+  width: 40dvw;
+  height: auto;
+}
+
+.bigline {
+  height: 15px;
+  width: 45%;
+  margin-left: 0px;
+  background-color: #102e10;
+  border-radius: 0 15px 0 0;
+}
+.smallline {
+  height: 5px;
+  width: 45%;
+  margin-left: 0px;
+  background-color: #102e10;
+}
+.services-head {
+  font-family: merienda;
+  position: relative;
+  margin-left: 200px;
+  margin-top: -50px;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 46.21px;
+  color: #102e10;
+  display: block;
+  text-align: center;
+}
+.services-stroke {
+  color: transparent;
+  font-size: 4em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0.8em;
+  left: 45%;
+  display: inline-block;
+}
+
+.service-title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.service-sub {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+.service-list li {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  line-height: 30px;
+}
+.service-list li p {
+  margin: 10px 0;
+  font-family: "Times New Roman", Times, serif;
+  width: 50dvw;
+  line-height: 30px;
+}
+.services-underline {
+  width: 30ch;
+  position: relative;
+  margin-top: -1.5em;
+  margin-left: 47%;
+}
+@media only screen and (max-width:768px) {
+  .services-stroke{
+    font-size: 1.5em;
+    position: relative;
+   top: 1.3em;
+    left: 42.5dvw;
+  }
+  .services-head{
+    font-size: 1.25em;
+    margin-left: 0;
+   margin-top: -5%;
+  }
+  
+  .bigline{
+    width: 40dvw;
+    height: 8px;
+    position: relative;
+   top: 5px;
+  }
+  .smallline{
+    width: 40dvw;
+    height: 3px;
+    position: relative;
+   
+  }
+  .services-underline{
+    width: 100px;
+    top: -2em;
+    left: -1em;
+  
+  }
+  .container-2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height:max-content;
+    margin: 0;
+    padding-top: 0;
+  }
+  .col-1{
+    width: 90dvw;
+    height: auto;
+    padding: 0 0 0 25px ;
+    margin: 0;
+    }
+  .col-2{
+    width: 90dvw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  .service-list{
+    font-size: 12px;
+    
+  }
+  .service-list li p{
+    width: 60dvw;
+    font-size: 0.75em;
+    line-height: 15px;
+  }
+  .service-sub{
+    line-height: 18px;
+    font-size: 0.75em;
+  }
+  .service-title{
+    font-size: 14px;
+  }
+  
+  .z-1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+  }
+  .imgs-1{
+    width: 125px;
+    height: 125px;
+  }
+  .z-2{
+    width: 150px;
+    height: 150px;
+    margin-top: -5em;
+    margin-left: 5em;
+    
+  }
+  .imgs-2{
+    width: 125px;
+    height: 125px;
+    
+  }
+ 
+}
+@media screen and (max-width:425px) {
+  .services-head{
+    font-size: 1em;
+    margin-left: 15%;
+   margin-top: -10%;
+  }
+}

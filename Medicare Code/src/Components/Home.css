@@ -1,0 +1,61 @@
+*{
+  font-family: "Merienda", cursive;
+  font-weight: 400;
+  
+  
+}
+
+.container{
+  background: url("../Assets/waveHome.svg"),
+    url("../Assets/backgroundHome.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  width: 100dvw;
+  height: 100dvh;
+  color: white;
+
+}
+
+
+.title {
+  max-width: 40dvw;
+  padding: 0;
+  position: relative;
+  top: 180px;
+  left: 200px;
+  font-size: 4em;
+  font-weight: 400;
+  
+}
+.content {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  max-width: 50dvw;
+  max-height: 60px;
+  position: relative;
+  top: 160px;
+  left: 200px;
+}
+@media only screen and (max-width: 768px) { 
+.container{
+  width: 100dvw;
+  height: 80dvh
+  
+}
+.title{
+  left: 20px;
+  top: 2em;
+  font-size: 20px;
+  display: inline;
+}
+.content{
+  left: 20px;
+  top: 3.5em;
+  font-size: 10px;
+  width: 60dvw;
+  
+}
+}
+

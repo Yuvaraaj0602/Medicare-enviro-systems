@@ -1,0 +1,51 @@
+.client-head {
+  
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46.21px;
+  margin-left: 25px;
+}
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+.logos{
+  overflow: hidden;
+}
+.logo-slide{
+  white-space: nowrap;
+animation: 20s slide infinite linear;
+}
+.logo-slide img{
+  margin: 0 40px;
+  height: 10dvh;
+}
+.client-underline{
+  width: 197px;
+  position: relative;
+  margin-left: 25px;
+  top: -20px;
+}
+@media only screen and (max-width:425px) {
+  .client-head{
+    font-size: 16px;
+    position: relative;
+    left: -12px;
+  }
+  .client-underline{
+    width: 100px;
+  position: relative;
+  left: -12px;
+  }
+  .logos{
+    height: 50px;
+  }
+  .logo-slide img{
+    height: 50px;
+    margin: 0 20px;
+  }
+}
